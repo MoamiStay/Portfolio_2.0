@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Ultra&display=swap");
+
+body {
+  height: 100vh;
+  background-color: #180b33;
+}
+
+p,
+ul li,
+a,
+h3,
+h2,
+h1 {
+  font-family: "Montserrat", sans-serif, "Courier New", Courier, monospace;
+  color: #e0d1ff;
+}
+
+.specialFont {
+  font-family: "Ultra", serif;
+}
+
+.main {
+  z-index: 2;
+  max-width: 60%;
+  margin: auto;
+}
+
+.textBox {
+  background-color: #251543;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+
+@media only screen and (max-width: 860px) {
+  .main {
+    max-width: 70%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .main {
+    max-width: 100%;
+  }
+}
